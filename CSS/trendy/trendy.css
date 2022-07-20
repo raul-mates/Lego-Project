@@ -1,0 +1,61 @@
+.trendy-now-container {
+  padding: 4rem 2rem;
+}
+
+.trendy-now-wrapper {
+  max-width: 132rem;
+  margin: 0 auto;
+}
+
+.trendy-header {
+  font-size: 3.2rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+
+.trendy-img {
+  margin-bottom: 1.5rem;
+  max-width: 413.33px;
+  height: 286.39px;
+}
+
+.trendy-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trendy-item-card {
+  max-width: 413.33px;
+}
+
+.trendy-item-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trendy-item-text {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trendy-item-button:link,
+.trendy-item-button:visited {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.trendy-item-button:hover,
+.trendy-item-button:active {
+  text-decoration: underline;
+}
+
+.button-svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.center-attention-wrapper {
+  max-width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 70px;
+}
+
+.center-attention-header {
+  max-width: 128rem;
+  margin: 0 auto;
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.center-attention-title {
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+.center-attention-text {
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.center-attention-buynow {
+  font-size: 1.6rem;
+}
+
+.center-attention-link {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.center-attention-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.center-attention-header {
+  margin-bottom: 1.5rem;
+}

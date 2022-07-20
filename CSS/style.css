@@ -1,0 +1,74 @@
+/* GENERAL USE / GENERAL SELECTORS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Cera Pro", sans-serif;
+}
+
+/* HELPERS */
+
+.center {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* RECOMMENDED CAROUSEL */
+
+.my-slider-progress {
+  background: #ccc;
+}
+
+.my-slider-progress-bar {
+  background: greenyellow;
+  height: 2px;
+  transition: width 400ms ease;
+  width: 0;
+}
+
+.extra-section {
+  position: relative;
+  max-width: 160rem;
+  height: 20rem;
+  margin-top: 6.4rem;
+  background-image: url(/imgs/40533-GWP-202205-Home-Hero-Short-Large.jpeg);
+  background-position: center;
+}
+
+.extra-img-wrapper {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.extra-img-wrapper p {
+  font-weight: 100;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.extra-img-btn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.extra-img-btn:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}

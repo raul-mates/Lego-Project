@@ -1,0 +1,30 @@
+.quick-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.quick-link-item {
+  display: flex;
+  justify-content: center;
+  padding: 4.8rem 2rem 6.4rem 2rem;
+}
+
+.quick-link-item img {
+  margin-bottom: 1rem;
+}
+
+.quick-link-item a:link,
+.quick-link-item a:visited {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.quick-link-item a:hover,
+.quick-link-item a:active {
+  color: #006db7;
+  text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+.header-container {
+  background-color: rgb(248, 248, 248);
+  padding: 0 3rem;
+}
+
+.header-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-content: center;
+  padding: 1.7rem;
+}
+
+.playground-container {
+  display: flex;
+  align-items: center;
+}
+
+.playground-link:link,
+.playground-link:visited {
+  font-size: 1.2rem;
+  background-color: rgb(171, 217, 255);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  box-shadow: rgb(48 85 181 / 44%) 0px 1px 4px 0px;
+  border-radius: 0.3rem;
+}
+
+.playground-link:hover,
+.playground-link:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.splide__slide,
+.splide__slide a {
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-decoration: none;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.splide__slide a:link,
+.splide__slide a:visited {
+  color: #006db7;
+}
+
+.splide__slide a:hover,
+.splide__slide a:active {
+  color: #006db7;
+  text-decoration: underline;
+}
+
+.account-utility {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  justify-self: flex-end;
+}
+
+.account-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.vip-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.account-utility a:link,
+.account-utility a:visited {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(/imgs/header-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  align-content: center;
+}
+
+.main-img-text {
+  font-weight: 500;
+  font-size: 4.4rem;
+  letter-spacing: 1px;
+  padding: 2.4rem 8.8rem;
+}
+
+.secondary-img-text {
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0 8.8rem;
+  line-height: 1.5;
+}
+
+.image-btns-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2.4rem 8.8rem;
+}
+
+.img-btn:link,
+.img-btn:visited {
+  display: flex;
+  padding: 1.2rem 1.8rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-btn:hover,
+.img-btn:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.arrow-right {
+  font-size: 2rem;
+}

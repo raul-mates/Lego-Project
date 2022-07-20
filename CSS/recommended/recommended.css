@@ -1,0 +1,143 @@
+.recommended-heading {
+  font-size: 3.2rem;
+  font-weight: 100;
+  color: #2c2c2c;
+}
+
+.carousel-item-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 339.75px;
+  padding: 1rem;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+#carousel-item-body:link,
+#carousel-item-body:visited {
+  text-decoration: none;
+}
+
+.carousel-heart {
+  color: #006db7;
+  padding: 0.5rem;
+  background-color: rgb(239, 239, 239);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.carousel-inner-text {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  color: #000;
+}
+
+.carousel-inner-image {
+  transition: all 0.3s;
+}
+
+.carousel-inner-image:hover {
+  transform: scale(1.1);
+}
+
+#carousel-heading {
+  font-size: 3.2rem;
+  font-weight: 100;
+  color: #2c2c2c;
+  margin-bottom: 1.2rem;
+}
+
+#additional-info {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  text-decoration: none;
+  color: #000;
+  padding: 1rem 1.8rem;
+  background-color: #ffcf00;
+}
+
+#carousel-outter-heading:link,
+#carousel-outter-heading:visited {
+  display: block;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 400;
+  text-align: start;
+}
+
+.carousel-outter-text {
+  display: block;
+  text-align: start;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#recommended-carousel-button:link,
+#recommended-carousel-button:visited {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #fd8024;
+}
+
+#recommended-carousel-button:hover,
+#recommended-carousel-button:active {
+  background-color: #fff;
+  box-shadow: 0 0 0 2.5px #fd8024 inset;
+}
+
+.recommended-item {
+  width: 339.75px !important;
+}
+
+.recommended-item:not(:last-child) {
+  margin-right: 3.5rem;
+}
+
+.add-to-wishlist {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.price-add-to-cart {
+  display: grid;
+  grid-template-rows: 0.9fr 0.5fr 1fr;
+  margin-top: 7px;
+}
+
+#recommended-carousel .splide__arrow--next {
+  right: -50px;
+}
+#recommended-carousel .splide__arrow--prev {
+  left: -50px;
+}
+
+#recommended-carousel .splide__arrow svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+#recommended-carousel .splide__arrow {
+  height: 3em;
+  width: 3em;
+}
+#recommended-carousel .my-slider-progress {
+  max-width: 900px;
+  width: 100%;
+  margin: 40px auto;
+  background-color: #d9d9d9;
+}
+#recommended-carousel .my-slider-progress .my-slider-progress-bar {
+  height: 5px;
+  background-color: #626262;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 94em) {
+  .carousel-container .splide__arrow--prev {
+    left: -3em;
+  }
+
+  .carousel-container .splide__arrow--next {
+    right: -3em;
+  }
+}
